@@ -7,8 +7,8 @@
 @media (prefers-color-scheme: dark) {	
 	:root {
 		/* Accent */
-		--gnome-accent-bg: var(--gnome-palette-blue-3);
-		--gnome-accent: #78aeed;
+		--gnome-accent-bg: #ff7800;
+		--gnome-accent: #ffa348;
 
 		--gnome-toolbar-star-button: var(--gnome-palette-yellow-1);
 
@@ -61,14 +61,14 @@
 
 	/* Private colors */
 	:root[privatebrowsingmode="temporary"] {
-		--gnome-accent-fg: #78aeed;
+		--gnome-accent-fg: #ffbe6f;
 		/* Headerbar */
-		--gnome-headerbar-background: #252F49 !important;
+		--gnome-headerbar-background: #493625 !important;
 		/* Tabs */	
-		--gnome-tabbar-tab-hover-background: #343e56; /* Hardcoded color */
-		--gnome-tabbar-tab-active-background: #343e56; /* Hardcoded color */
-		--gnome-tabbar-tab-active-background-contrast: #495675; /* Hardcoded color */
-		--gnome-tabbar-tab-active-hover-background: #414a61; /* Hardcoded color */
+		--gnome-tabbar-tab-hover-background: #564434; /* Hardcoded color */
+		--gnome-tabbar-tab-active-background: #564434; /* Hardcoded color */
+		--gnome-tabbar-tab-active-background-contrast: #615441; /* Hardcoded color */
+		--gnome-tabbar-tab-active-hover-background: #615441; /* Hardcoded color */
 	}
 
 	/* Private and backdrop colors */
